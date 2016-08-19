@@ -1,0 +1,35 @@
+{
+  "name": "mnt-api-v2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My New Team API Version 2",
+  "main": "server.js",
+  "engines": {
+    "node": "6.3.0"
+  },
+  "authors": [
+    "Rúben Gomes"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "start": "SET NODE_ENV=dev&& node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "config-js": "^1.1.9",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0",
+    "method-override": "^2.3.6",
+    "moment": "^2.14.1",
+    "mongoose": "^4.5.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^2.5.3"
+  }
+}
